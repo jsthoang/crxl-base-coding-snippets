@@ -1,0 +1,22 @@
+{
+    "name": "crxl-base-coding-snippets",
+    "displayName": "Crxl Base Coding Snippets",
+    "description": "This is snippets extention for CaeruxLab Html Base Coding",
+    "version": "0.0.1",
+    "publisher": "HoangVV",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

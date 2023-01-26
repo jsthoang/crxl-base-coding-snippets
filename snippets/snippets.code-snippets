@@ -1,0 +1,18 @@
+// prittier-ignore
+{
+    "CRXL Header": {
+        "prefix": "crxl-header",
+        "body": ["<!-- Header -->", "<header id=\"header\">", "        <div class=\"inner\">", "            <div class=\"\"logo\"\">", "                <a href=\"#\">", "                    <div class=\"thumb\">", "                        <img src=\"assets/images/logo.png\" width=\" \" height=\" \" alt=\"Logo\"/>", "                    </div>", "                </a>", "            </div>", "            <nav class=\"nav\">", "                <ul>", "                    <li>", "                        <a href=\"\">Item 01</a>", "                    </li>", "                </ul>", "            </nav>", "        </div>", "    </header>", "<!-- /Header -->"],
+        "description": "CaeruxLab HTML Header"
+    },
+    "CRXL Footer": {
+        "prefix": "crxl-footer",
+        "body": ["<!-- Footer -->", "    <footer id=\"footer\">", "        <div class=\"inner\">", "            <div class=\"logo\">", "                <a href=\"#\">", "                    <div class=\"thumb\">", "                        <img src=\"assets/images/logo.png\" width=\" \" height=\" \" alt=\"Footer Logo\"/>", "                    </div>", "                </a>", "            </div>", "            <nav class=\"nav_footer\">", "                 <ul>", "                      <li>", "                        <a href=\" \">Item 01</a>", "                    </li>", "                </ul>", "            </nav>", "        </div>", "    </footer>", "    <!-- /Footer -->"],
+        "description": "CRXL Footer"
+    },
+    "CRXL Thumb": {
+        "prefix": "thumb-crxl",
+        "body": ["<div class=\"thumb\">", "    <img src=\"${0}\" ${1:Image size} alt=\"${3:alternate}\"/>", "</div>"],
+        "description": "CRXL Thumb"
+    }
+}
